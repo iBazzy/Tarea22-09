@@ -1,0 +1,50 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-grid>
+      <ion-row>
+
+        <ion-col size="6">
+
+          <ion-title>Creación</ion-title>
+        </ion-col>
+        <ion-col size="6">
+
+          <ion-icon name="home-outline" [routerLink]="['/home']" size="large" style="justify-items: left;"> Ir al Home</ion-icon>
+        </ion-col>
+
+      </ion-row>
+
+    </ion-grid>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <ion-img src="https://pm1.narvii.com/7901/1a1bfba1bc0ca6164e71198a0aa2a66029339d10r1-1267-1809v2_hq.jpg" size="6"></ion-img>
+          <ion-img src="https://preview.redd.it/wg3dnx5clxk41.png?auto=webp&s=eb38d1a589af6360828eca989e28bfbae410692a"></ion-img>
+
+        </ion-col>
+        <ion-col>
+          <ion-img src="https://upload.wikimedia.org/wikipedia/commons/5/52/Dungeon_ni_Deai_o_Motomeru_no_wa_Machigatteiru_Dar%C5%8D_ka_logo.png"></ion-img>
+          <ion-img src="https://i.pinimg.com/550x/07/ab/8d/07ab8d5ef92cc77982bed2d6dfeddee0.jpg"></ion-img>
+        </ion-col>
+      </ion-row>
+
+    </ion-grid>
+    <ion-badge></ion-badge>
+  </ion-card>
+
+  <ion-title>¿Quieres Ingresar una <br>Deidad?</ion-title>
+  <br>
+  <ion-label style="text-align: center;">Nombre: </ion-label>
+  <ion-input type="text" placeholder="Ingresa el Nombre"></ion-input>
+  <ion-label style="text-align: center;">Descripción: </ion-label>
+  <ion-input type="text" placeholder="Ingresa la Descripción"></ion-input>
+  <br>
+  <center><ion-button>Guardar Deidad</ion-button></center>
+  <br>
+
+</ion-content>
